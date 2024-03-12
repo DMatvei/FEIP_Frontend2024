@@ -1,21 +1,39 @@
+<script setup>
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
+import Body from './components/Body.vue';
+</script>
+
+
+
 <template>
-  <div>
-    <h1 class="title">Hellow World! 1</h1>
-    <p> Hello world 2</p>
-  </div>
-  
+  <NuxtLayout>
+    <Header />
+
+    <Body />
+
+    <Footer />
+  </NuxtLayout>
+
+
+
+
+
+
 </template>
 
 <script lang="ts" setup>
 
 </script>
 
-<style>
-  :root {
-    font-family: "Open Sans", sans-serif;
-  }
+<style lang="sass">
+@use './assets/variables' as var
 
-  .title {
-    font-family: "Montserrat", sans-serif;
-  }
+:root
+  font:
+    family: var.$font-text
+
+
+body
+  margin: 0
 </style>
