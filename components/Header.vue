@@ -27,5 +27,12 @@ header > h1
   color: #ff0000
   background-color: #9ed1d6
 
+header
+  display: flex
+  flex:
+    wrap: nowrap
+    direction: column
+    
+
 
 </style>

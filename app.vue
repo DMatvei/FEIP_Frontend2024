@@ -29,6 +29,7 @@ import Body from './components/Body.vue';
 <style lang="sass">
 @use './assets/variables' as var
 
+
 :root
   font:
     family: var.$font-text

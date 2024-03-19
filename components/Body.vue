@@ -1,5 +1,6 @@
 <script setup>
   import Card from './Card.vue';
+  import Banner from './Banner.vue';
 
 
 </script>
@@ -8,14 +9,18 @@
 <template>
 
   <main>
-
+    <Banner>Banner</Banner>
     <div>
 
       <h1 class="title">Hellow World! 1</h1>
       <p> Hello world 2</p>
     </div>
-    <Card> Here </Card>
-    <Card> and Here </Card>
+    <div class="flexrow">
+      <Card> Here </Card>
+      <Card> and Here </Card>
+
+    </div>
+
 
 
   </main>
@@ -27,6 +32,7 @@
 
 <style lang="sass">
 @use './assets/variables' as var
+@use "./assets/class_style" as cs
 
 .title
   font:

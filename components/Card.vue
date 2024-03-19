@@ -17,4 +17,5 @@
     family: var.$font-title
   background: 
     color: #69d88e
+  display: flex
 </style>

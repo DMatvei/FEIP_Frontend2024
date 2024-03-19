@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="flexcol">
     footer
 
   </footer>
@@ -9,11 +9,15 @@
 
 </script>
 
-<style>
+<style lang="sass">
 
-footer {
-  background-color: gray;
+@use "./assets/class_style" as cs
 
-}
+footer 
+  background-color: #777777
+  justify:
+    content: flex-end
+
+
 
 </style>
