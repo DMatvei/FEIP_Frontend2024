@@ -10,5 +10,5 @@ export default defineNuxtConfig({
         Montserrat: true,
       },
     },
-  ]],
+  ], "radix-vue"],
 });
